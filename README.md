@@ -24,6 +24,7 @@ In this Project we will assist Steve and his parents to analyze an entire datase
         
     ''2b) Loop over all the rows in the spreadsheet. 
     For i = 2 To RowCount
+    
      '3a) Increase volume for current ticker
      
      ![Test Image](/Resources/2b_3a.png) <br/>
