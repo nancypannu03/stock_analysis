@@ -6,6 +6,7 @@ In this Project we will assist Steve and his parents to analyze an entire datase
 # Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 
  '1a) Create a ticker Index
+    tickerIndex.png
     
 
     '1b) Create three output arrays   
