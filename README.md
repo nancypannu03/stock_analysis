@@ -14,7 +14,7 @@ In this Project we will assist Steve and his parents to analyze an entire datase
 
     '1b) Create three output arrays   
     
-    ![Test Image](/Resources/OutputArrays.png) <br/>
+   ![Test Image](/Resources/OutputArrays.png) <br/>
     
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
