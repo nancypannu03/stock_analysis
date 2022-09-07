@@ -1,5 +1,5 @@
 # stock_analysis
-# Overview of the Project
+# Overview of the Project: VBA Stock Analysis
 ## Purpose Of the Analysis
 # Results: Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
 # Summary: 
