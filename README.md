@@ -27,21 +27,12 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     
     ![Test Image](/Resources/loop_Volumn.png) 
   
-    
-        
-   
-    
-    
-     
-    ![Test Image](/Resources/Current_First.png) <br/>
-     
-  
-        
         
         '3b) Check if the current row is the first row with the selected tickerIndex.
         'If  Then
             
             
+      ![Test Image](/Resources/Current_First.png) <br/>
             
         'End If
         
