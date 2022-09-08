@@ -71,6 +71,11 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     Next i
     
 ## Results 
+### Total Daily Volumn and Return for the each year
+![Test Image](/Resources/VBA_Challenge_2017.png) <br/>
+
+![Test Image](/Resources/VBA_Challenge_2018.png) <br/>
+
 ### Runtime of Original code
   ![Test Image](/Resources/VBA_Challenge_2017_time.png) <br/>
   
