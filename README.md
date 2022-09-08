@@ -12,52 +12,65 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     
     
 
-    '1b) Create three output arrays   
+  '1b) Create three output arrays   
     
   ![Test Image](/Resources/OutputArrays.png) <br/>
     
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
-    ''2b) Loop over all the rows in the spreadsheet and  
-    '3a) Increase volume for current ticker
-     
+    
+    'Initialize ticker volumes to zero
+    
+ For i = 0 To 11
+ tickerVolumes(i) = 0
+
+ Next i
+ 
+ ''2b) Loop over all the rows in the spreadsheet and  
+ ' loop over all the rows
+
+ For i = 2 To RowCount
+ 
+ '3a) Increase volume for current ticker
+  ' Increase volume for current ticker
+   
+    tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
     
     
-     ![Test Image](/Resources/Check_First_Last.png) <br/>
-  
-        
-        '3b) Check if the current row is the first row with the selected tickerIndex.
+    '3b) Check if the current row is the first row with the selected tickerIndex.
         'If  Then
-            
-            
-      ![Test Image](/Resources/Current_First.png) <br/>
-            
-        'End If
+    
+    If Cells(i - 1, 2).Value <> tickers(tickerIndex) Then
+        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
         
-        '3c) check if the current row is the last row with the selected ticker
+        End If
+    
+    '3c) check if the current row is the last row with the selected ticker
          'If the next row’s ticker doesn’t match, increase the tickerIndex.
         'If  Then
-            
-            
+    
+    If Cells(i + 1, 2).Value <> tickers(tickerIndex) Then
+        tickerEndingPrices(tickerIndex) = Cells(i, 6).Value
+        
+      '3d Increase the tickerIndex. 
+        tickerIndex = tickerIndex + 1
+        
+    End If
 
-            '3d Increase the tickerIndex. 
-            
-            
-        'End If
-    
-    Next i
-    
-    '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+Next i
+
+ '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
     For i = 0 To 11
-        
-        Worksheets("All Stocks Analysis").Activate
-        
-        
-    Next i
+  
+    Worksheets("All Stocks Analysis").Activate
+    tickerIndex = i
+    Cells(i + 4, 1).Value = tickers(tickerIndex)
+    Cells(i + 4, 2).Value = tickerVolumes(tickerIndex)
+    Cells(i + 4, 3).Value = tickerEndingPrices(tickerIndex) / tickerStartingPrices(tickerIndex) - 1
     
-
-
-
+Next i
+    
+   
 # Summary: 
 ## What are the advantages or disadvantages of refactoring code?
 ## How do these pros and cons apply to refactoring the original VBA script?
