@@ -18,11 +18,12 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     
     
     ''2a) Create a for loop to initialize the tickerVolumes to zero. 
-    ''2b) Loop over all the rows in the spreadsheet and  '3a) Increase volume for current ticker
+    ''2b) Loop over all the rows in the spreadsheet and  
+    '3a) Increase volume for current ticker
      
-    For i = 2 To RowCount
     
-    ![Test Image](/Resources/Check_First_Last.png) <br/>
+    
+     ![Test Image](/Resources/Check_First_Last.png) <br/>
   
         
         '3b) Check if the current row is the first row with the selected tickerIndex.
