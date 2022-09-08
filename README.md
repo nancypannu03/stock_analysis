@@ -26,22 +26,22 @@ In this Project we will assist Steve and his parents to analyze an entire datase
 
       Next i
  
- ''2b) Loop over all the rows in the spreadsheet and  
- ' loop over all the rows
+      ''2b) Loop over all the rows in the spreadsheet and  
+      ' loop over all the rows
 
- For i = 2 To RowCount
+       For i = 2 To RowCount
  
- '3a) Increase volume for current ticker
-  ' Increase volume for current ticker
+       '3a) Increase volume for current ticker
+       'Increase volume for current ticker
    
-    tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
+        tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value
     
     
-    '3b) Check if the current row is the first row with the selected tickerIndex.
+        '3b) Check if the current row is the first row with the selected tickerIndex.
         'If  Then
     
-    If Cells(i - 1, 2).Value <> tickers(tickerIndex) Then
-        tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
+         If Cells(i - 1, 2).Value <> tickers(tickerIndex) Then
+          tickerStartingPrices(tickerIndex) = Cells(i, 6).Value
         
         End If
     
