@@ -71,6 +71,12 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     Next i
     
 ## Results 
+### Runtime of Original code
+  ![Test Image](/Resources/VBA_Challenge_2017_time.png) <br/>
+  
+  ![Test Image](/Resources/VBA_Challenge_2018_time.png) <br/>
+  
+
 ### Runtime of refactored code
 
   ![Test Image](/Resources/VBA_ChallengeRefactored_2017_time1.png) <br/>
