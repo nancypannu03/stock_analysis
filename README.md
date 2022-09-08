@@ -74,6 +74,8 @@ In this Project we will assist Steve and his parents to analyze an entire datase
 ### Runtime of refactored code
 
   ![Test Image](/Resources/VBA_ChallengeRefactored_2017_time1.png) <br/>
+  
+  ![Test Image](/Resources/VBA_ChallengeRefactored_2018_time1.png) <br/>
 
 
 # Summary: 
