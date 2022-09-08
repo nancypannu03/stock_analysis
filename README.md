@@ -3,7 +3,7 @@
 ## Purpose Of the Analysis
 In this Project we will assist Steve and his parents to analyze an entire dataset. We will refactor the module 2 solution code to loop through all the data one time and collect the relevant information. With refactoring we will be able to analyze the given data set more efficiently and in as faster manner. In the Green Stocks worksheet we have been provided with the data of the 12 green stocks for years 2017 and 2018 respectively. Therefore, we will loop over these sheets and refactor our code to present faster conclusions.
 
-# Results: 
+# Refactored Code: 
 
  '1a) Create a ticker Index
  
