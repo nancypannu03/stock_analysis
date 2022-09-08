@@ -21,10 +21,10 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     
     'Initialize ticker volumes to zero
     
- For i = 0 To 11
- tickerVolumes(i) = 0
+     For i = 0 To 11
+     tickerVolumes(i) = 0
 
- Next i
+      Next i
  
  ''2b) Loop over all the rows in the spreadsheet and  
  ' loop over all the rows
