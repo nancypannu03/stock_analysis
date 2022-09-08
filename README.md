@@ -57,9 +57,9 @@ In this Project we will assist Steve and his parents to analyze an entire datase
         
     End If
 
-Next i
+   Next i
 
- '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
+   '4) Loop through your arrays to output the Ticker, Total Daily Volume, and Return.
     For i = 0 To 11
   
     Worksheets("All Stocks Analysis").Activate
@@ -68,7 +68,7 @@ Next i
     Cells(i + 4, 2).Value = tickerVolumes(tickerIndex)
     Cells(i + 4, 3).Value = tickerEndingPrices(tickerIndex) / tickerStartingPrices(tickerIndex) - 1
     
-Next i
+    Next i
     
    
 # Summary: 
