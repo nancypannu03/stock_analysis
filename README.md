@@ -70,7 +70,12 @@ In this Project we will assist Steve and his parents to analyze an entire datase
     
     Next i
     
-   
+## Results 
+### Runtime of refactored code
+
+  ![Test Image](/Resources/VBA_ChallengeRefactored_2017_time1.png) <br/>
+
+
 # Summary: 
 ## What are the advantages or disadvantages of refactoring code?
 ## How do these pros and cons apply to refactoring the original VBA script?
