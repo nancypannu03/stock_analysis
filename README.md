@@ -98,6 +98,10 @@ In this Project we will assist Steve and his parents to analyze an entire datase
 - Basically its more beneficial on the client end as any client will be able to easily analyze it and helps in efficient decision making.<br/>
 
 ### Disadvantages
--
+- Refactoring process is time consuming. Basically its all about editing the working code and there might be possibility of slighltly different outcomes.<br/>
+- Not Reliable all the times and sometimes we have to switch to the original code.<br/>
+- In certain situations we have to introduce complex fuunctions, which further increases the complexity of the code.<br/> 
 
 ## How do these pros and cons apply to refactoring the original VBA script?
+- Refactoring the code represents making a more efficient code from the already working code(original code). Apart from its accuracy levels we should always save the original code, just in case if we feel stuck while refactoring. <br/>
+- Refactoring requires high level of coding experience so that we can recreate an efficient code without compromising the outcomes(results) and once that is achieved, the code becomes readable and organized.
