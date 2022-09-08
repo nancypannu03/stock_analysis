@@ -1,7 +1,7 @@
 # stock_analysis
 # Overview of the Project: VBA Stock Analysis
 ## Purpose Of the Analysis
-In this Project we will assist Steve and his parents to analyze an entire dataset. We will refactor the module 2 solution code to loop through all the data one time and collect the relevant information. With refactoring we will be able to analyze the given data set more efficiently and in as faster manner. In the Green Stocks worksheet we have been provided with the data of the 12 green stocks for years 2017 and 2018 respectively. Therefore, we will loop over these sheets and refactor our code to present faster conclusions.
+In this Project we will assist Steve and his parents to analyze an entire dataset. We will refactor the module 2 solution code to loop through all the data one time and collect the relevant information. With refactoring we will be able to analyze the given data set more efficiently and in a faster manner. In the Green Stocks worksheet we have been provided with the data of the 12 green stocks for years 2017 and 2018 respectively. Therefore, we will loop over these sheets and refactor our code to present faster execution.
 
 # Refactored Code: 
 
@@ -98,10 +98,10 @@ In this Project we will assist Steve and his parents to analyze an entire datase
 - Basically its more beneficial on the client end as any client will be able to easily analyze it and helps in efficient decision making.<br/>
 
 ### Disadvantages
-- Refactoring process is time consuming. Basically its all about editing the working code and there might be possibility of slighltly different outcomes.<br/>
+- Refactoring process is time consuming. Basically its all about editing the already working code and there might be possibility of achieving different outcomes.<br/>
 - Not Reliable all the times and sometimes we have to switch to the original code.<br/>
 - In certain situations we have to introduce complex fuunctions, which further increases the complexity of the code.<br/> 
 
 ## How do these pros and cons apply to refactoring the original VBA script?
 - Refactoring the code represents making a more efficient code from the already working code(original code). Apart from its accuracy levels we should always save the original code, just in case if we feel stuck while refactoring. <br/>
-- Refactoring requires high level of coding experience so that we can recreate an efficient code without compromising the outcomes(results) and once that is achieved, the code becomes readable and organized.
+- Refactoring requires high level of coding experience so that we can recreate an efficient code without compromising the outcomes(results) and once that is achieved, the code becomes more readable and organized.
